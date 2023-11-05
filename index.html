@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Karla Morales Castrillo">
+    <title>Tarea Karla - Semana 8</title>
+    <link rel="stylesheet" href="hoja.css">
+</head>
+<body>
+    <div class="ejercicio1">
+        <P><H1>Ejercicio 1</H1></P>
+        <p><h3>Verificar si la edad permite a conducir</h3></p>
+     <legend>Digite la edad:</legend>
+     <input type="number" id="txtEdad" name="edad" value="" />
+     <input type="button" onclick="comprobarEdad()" value="Comprobar"/>
+     <p id="pEdad"></p>
+    </div>
+ 
+     <div class="ejercicio2">
+        <P><H1>Ejercicio 2</H1></P>
+        <p><h3>Calificar el número de nota</h3></p>
+     <legend>Digite una Nota de calificación</legend>
+     <input type="number" id="txtNumero" name="Calificacion" value="" />
+     <input type="button" onclick="comprobarCalificacion()" value="Calificar"/>
+     <p id="pCalificacion"></p>
+     </div>
+
+   
+     <div class="ejercicio3">
+        <P><H1>Ejercicio 3</H1></P>
+        <p><h3>Hacer una cadena de palabras o letras</h3></p>
+        <legend>Digite letra o palabra</legend>
+        <input type="text" id="txtTexto" name="Calificacion" value="" />
+        <input type="button" onclick="cadenaPalabras()" value="Agregar palabra o letra"/>
+        <input type="button" onclick="cancelar()" value="Cancelar y mostrar candena"/>
+        <p id="pCadena"></p>
+     </div>
+ 
+
+     <div class="ejercicio4">
+        <P><H1>Ejercicio 4</H1></P>
+         <p><h3>Sumar la cantidad de números ingresados</h3></p>
+         <legend>Digite un número y luego presion enter para guardar cada valor</legend>
+         <input type="text" id="txtNumeroSuma" name="numeroTexto" value="" onkeydown="if (event.key === 'Enter') agregarNumeros()" />
+         <input type="button" onclick="sumaNumeros()" value="Cancelar y mostrar suma total de números "/>
+         <p id="pSumaTotal"></p>
+     </div>
+     
+   
+     <div class="ejercicio5">
+        <P><H1>Ejercicio 5</H1></P>
+        <p><h3>El valor de la letra de un número de cedula</h3></p>
+        <legend>Digite el número de cedula sin guiones</legend>
+        <input type="text" id="txtNumeroCedula" name="numeroCedula" value="" onkeydown="if (event.key === 'Enter') cedulaIdentidad()" />
+        <input type="button" onclick="valorCedula()" value="Cancelar y mostrar el valor del número de cedula "/>
+        <p id = "pValorCedula"></p>
+    </div>
+ 
+    
+     <div class="ejercicio6">
+        <P><H1>Ejercicio 6</H1></P>
+        <p><h3>Crear una tabla según el número de filas y el número de columnas</h3></p>
+        <legend>Digite el número de filas para una tabla</legend>
+        <input type="number" id="txtFila" name="tamannoFila" value="" />
+        <legend>Digite el número de columnas para una tabla</legend>
+        <input type="number" id="txtColumna" name="tamannoColumna" value="" />
+        <p><input type="button" onclick="crearTabla()" value="Mostrar la tabla y el contenido "/></p>    
+        <div id="tabla-container" class="tabla-container"></div>
+
+     </div>
+     
+     <div class="ejercicio7">
+        <P><H1>Ejercicio 7</H1></P>
+        <p><h3>Aplicar el valor de un precio más el impuesto del IVA</h3></p>
+         <legend>Digite un precio</legend>
+         <input type="number" id="txtPrecio" name="preciop" value="" />
+         <legend>¿Desea aplicar el IVA?</legend>
+         <label class="rbAplicaImpuesto">
+             <input type="radio" name="opcion" value="si"> Sí
+         </label>
+         <label class="rbAplicaImpuesto">
+             <input type="radio" name="opcion" value="no"> No
+         </label>
+         <p><input type="button" onclick="costoTotal(parseFloat(document.getElementById('txtPrecio').value), 
+         document.querySelector('input[name=\'opcion\']:checked').value === 'si')" value="Mostrar el costo total elegido"/></p>
+         <p id="resultado"></p>   
+     </div>
+   <script  src="javaScript.js"></script>
+</body>
+</html>

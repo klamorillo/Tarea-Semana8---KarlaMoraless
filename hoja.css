@@ -1,0 +1,125 @@
+
+.ejercicio1 {
+    border: 2px solid #87ceeb; /* Borde celeste */
+    background-color: #b0c9ca; /* Fondo gris claro */
+    padding: 20px;
+    margin: 10px; /* Margen entre ejercicios */
+    width: 100%; /* Ancho completo del contenedor */
+    
+    align-items: left; /* Centrado verticalmente */
+    justify-content: justify; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: justify; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+}
+
+.ejercicio2 {
+    border: 2px solid #ff69b4; /* Borde rosa */
+    background-color: #a36f6f; /* Fondo gris claro */
+    padding: 20px;
+    margin: 10px; /* Margen entre ejercicios */
+    width: 100%; /* Ancho completo del contenedor */
+
+    align-items: left; /* Centrado verticalmente */
+    justify-content: center; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+}
+
+.ejercicio3 {
+    border: 2px solid #ffc369; /* Borde rosa */
+    background-color: #d8cccc; /* Fondo gris claro */
+    padding: 20px;
+    margin: 10px; /* Margen entre ejercicios */
+    width: 100%; /* Ancho completo del contenedor */
+
+    align-items: center; /* Centrado verticalmente */
+    justify-content: center; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+    
+}
+
+.ejercicio4 {
+    border: 2px solid #ffc369; /* Borde rosa */
+    background-color: #1e62bb; /* Fondo gris claro */
+    padding: 20px;
+    margin: 10px;
+    width: 100%; 
+
+    align-items: center; /* Centrado verticalmente */
+    justify-content: center; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+}
+
+
+.ejercicio5 {
+    border: 2px solid #7369ff; /* Borde rosa */
+    background-color: #e669ff;
+    padding: 20px;
+    margin: 10px; /* Margen entre ejercicios */
+    width: 100%; /* Ancho completo del contenedor */
+
+    align-items: center; /* Centrado verticalmente */
+    justify-content: center; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+}
+
+
+.ejercicio6 {
+    border: 2px solid #69ff8a; /* Borde rosa */
+    background-color: #a0ff69;
+    padding: 20px;
+    margin: 10px; /* Margen entre ejercicios */
+    width: 100%; /* Ancho completo del contenedor */
+
+    align-items: center; /* Centrado verticalmente */
+    justify-content: center; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+}
+
+
+.ejercicio7 {
+    border: 2px solid #a0ff69; /* Borde rosa */
+    background-color: #cdd8cc; /* Fondo gris claro */
+    padding: 20px;
+    margin: 10px; /* Margen entre ejercicios */
+    width: 100%; /* Ancho completo del contenedor */
+
+    align-items: center; /* Centrado verticalmente */
+    justify-content: center; /* Centrado horizontalmente dentro del ejercicio */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    text-align: center;
+}
+
+.tabla-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 80%; 
+    border-collapse: collapse; /* Fusiona los bordes de las celdas */
+}
+
+table td, table th {
+    border: 2px solid #000; /* Agrega un borde de 1px sólido y de color negro a las celdas */
+    padding: 20px; /* Añade un relleno para separar el contenido del borde */
+}
+
+
+table {
+    width: 80%; /* Puedes ajustar este valor según tus necesidades */
+    margin: 0 auto; /* Esto centrará la tabla horizontalmente en el contenedor */
+    background-color: #69e1ff;
+}
